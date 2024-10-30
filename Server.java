@@ -2,7 +2,7 @@ import java.io.*;
 import java.net.*;
 class ChatServer{
 public static void main(String args[])throws Exception{
-ServerSocket server = new ServerSocket(1234);
+ServerSocket server = new ServerSocket(5000);
 while(true){
 System.out.println("Server  is ready to accept the connection");
 Socket socket = server.accept();
